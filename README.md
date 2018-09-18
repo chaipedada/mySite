@@ -1,2 +1,2 @@
-# mySite
-Personal Website
+# SiteSkeleton
+Website Skeleton
