@@ -4,6 +4,7 @@ import { browserHistory } from 'react-router';
 import HomePage from './HomePage';
 import NavBar from './HeaderComponent/NavBar';
 import Footer from './FooterComponent/Footer';
+import ProfilePage from './ProfilePage';
 
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <div>
           <NavBar />
           <Route name="home" exact path="/" component={HomePage} />
+          <Route name="profile" exact path="/AboutMe" component={ProfilePage} />
           <Footer />
         </div>
       </Router>

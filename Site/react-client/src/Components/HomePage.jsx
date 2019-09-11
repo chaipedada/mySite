@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import background from './background.jpg'
+
+
 class HomePage extends Component {
   render() {
     return (
       <div>
-        Home page
-      </div>
+     	<img src={background} alt="background" style={{width: '100%'}}/>
+		<div class="top-left fadeIn">Engineer | Photographer | UCLA Bruin.</div>
+	  </div>
     )
   }
 }
